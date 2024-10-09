@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.background{
+   background-image: url(./logotipo/background4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding: 0.5px 0px 0px 500px;
+}
+.cabeçalho{
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5px 0px 0px 250px;
+}
+.cabeçalho a{
+    color: #313926;
+    font-size: 15px;
+}
+.cabeçalho a:hover{
+    color: rgb(236, 126, 163);
+    transition: 0.2s all;
+}
+.logo{
+    padding: 0px 300px 0px 0px;
+}
+.logo img{
+    background: transparent;
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 80px;
+    object-fit: cover;
+    width: 80px;  
+    justify-content: left;
+    cursor: pointer;
+}
+button{
+    background-color:  rgb(236, 126, 163);
+    color: #fff;
+    border: solid 3px  rgb(236, 126, 163);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    cursor: pointer;
+}
+button:hover{
+    color:  rgb(236, 126, 163);
+    background: transparent;
+    border: solid 3px  rgb(236, 126, 163);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    transition: 0.4s;
+}
+
+body .container {
+    margin-top: -420px;
+    padding: 0 0 150px 60px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container .card .frente{
+    width: 300px;
+    height: 200px;
+    transition: 0.8s;
+}
+.container .card .frente.cima{
+    position: relative;
+    background-color:#1e3312;
+    z-index: 1;
+    transform: translateY(100px);
+}
+.container .card:hover .frente.cima{
+    background:#1e3312;
+    transform: translateY(0px);
+}
+.container .card .icon .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+}
+img {
+    width: 300px;
+}
+.container .card .frente.baixo{
+    position: relative;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 50px rgba(5, 5, 5, 0.434);
+    transform: translateY(-100px);
+}
+.container .card:hover .frente.baixo{
+    transform: translateY(0);
+}
+.container a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .card.frente.baixo .content {
+    text-align: center;
+    color: black;
+}
+.text1{
+    color:#1e3312;
+    font-size: 18px;
+    object-position: center;
+    text-align: center;
+}
+.text1 span{
+    color: rgb(236, 126, 163);
+}
+.titulo1{
+    color:  rgb(236, 126, 163);
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.map{
+    position: relative;
+    padding-left: 1124px;
+    
+}
+.text2{
+    text-align: center;
+    margin-top: -220px;
+    color: #313926;
+    
+}

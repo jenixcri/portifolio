@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.background{
+    background-image: url(./logotipo/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding: 0.5px 0px 0px 500px;
+}
+.cabeçalho{
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5px 0px 0px 250px;
+}
+.cabeçalho a{
+    color: #313926;
+    font-size: 15px;
+}
+.cabeçalho a:hover{
+    color: rgb(236, 126, 163);
+    transition: 0.2s all;
+}
+.logo{
+    padding: 0px 300px 0px 0px;
+}
+.logo img{
+    background: transparent;
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 80px;
+    object-fit: cover;
+    width: 80px;  
+    justify-content: left;
+    cursor: pointer;
+}
+.cabeçalho button{
+    background-color:  rgb(236, 126, 163);
+    color: #fff;
+    border: solid 3px  rgb(236, 126, 163);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    cursor: pointer;
+}
+.cabeçalho button:hover{
+    color:  rgb(236, 126, 163);
+    background: transparent;
+    border: solid 3px  rgb(236, 126, 163);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    transition: 0.4s;
+}
+.container-img img{
+    width: 1350px;
+    position: absolute;
+    top: 3.5rem;
+    left: 13rem;
+    display: flex;
+    justify-content: center;
+    object-position: center ;
+}
+.container-text{
+    color: rgb(236, 126, 163);
+    font-size: 30px;
+    padding: 120px 0px 0px 710px ;
+}
+.text-sobre h2{
+    position: relative;
+    left: 62%;
+    color:  #313926;
+    font-size: 30px;
+    padding: 0px 240px;
+}
+.text-sobre li{
+    position: relative;
+    left: 62%;
+    color: #313926;
+    font-size: 20px;
+    list-style: circle;
+    text-align: left;
+    padding: 0px 240px;
+}
+.text-sobre p{
+    padding: 0px 100px 0px 50px;
+    color: #313926;
+    font-weight: 600;
+    margin-top: -200px;
+    font-size: 15px;
+}

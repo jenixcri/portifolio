@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+.background{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding: 0.5px 0px 0px 500px;
+}
+.cabeçalho{
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5px 0px 0px 250px;
+}
+.cabeçalho a{
+    color: #313926;
+    font-size: 15px;
+}
+.cabeçalho a:hover{
+    color: rgb(236, 126, 163);
+    transition: 0.2s all;
+}
+.logo{
+    padding: 0px 300px 0px 0px;
+}
+.logo img{
+    background: transparent;
+    background-color: #ddd;
+    border-radius: 50%;
+    height: 80px;
+    object-fit: cover;
+    width: 80px;  
+    justify-content: left;
+    cursor: pointer;
+}
+.cabeçalho button{
+    background-color:  rgb(236, 126, 163);
+    color: #fff;
+    border: solid 3px  rgb(236, 126, 163);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    cursor: pointer;
+}
+.cabeçalho button:hover{
+    color:  rgb(236, 126, 163);
+    background: transparent;
+    border: solid 3px  rgb(236, 126, 163);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    transition: 0.4s;
+}
+body{
+    background: url(./logotipo/background3.png);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+
+}
+.card {
+    margin: 100px 280px 0px 450px;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 18px #15362085;
+}
+.mediacard {
+    background:url(./logotipo/ela\ conecta].png) center/cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+.action{
+    padding: 265px 20px;
+    padding-left: 90px;
+}
+h2.title {
+    color: rgb(236, 126, 163);
+    padding-left: 10px;
+}
+span.secondtext {
+    padding-left: 10px;
+}
+.action {
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 240px;
+}
+button.actioncard {
+    border: none;
+    text-shadow: none;
+    background: transparent;
+    color: rgb(236, 126, 163);
+    font-size: 18px;
+    
+}
+.titulo{
+    color: rgb(236, 126, 163);
+    text-shadow: #0d120f52 1px 1.25px 2px;
+    position: relative;
+    padding: 0px 0px 0px 550px;
+    margin-top: -510px;
+    font-size: 20px;
+}
+.mediacard1 {
+    background:url(./logotipo/github\ verde.png) center/cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+.project li{
+    color:  #153620e9;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
